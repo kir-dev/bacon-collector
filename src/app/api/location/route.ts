@@ -1,4 +1,4 @@
-import LocationStoreService from '@/app/service/locationStore.service'
+import LocationStoreService from '@/service/locationStore.service'
 import { LocationBody } from '@/types'
 import { NextResponse } from 'next/server'
 
