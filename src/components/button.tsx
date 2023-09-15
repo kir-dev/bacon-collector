@@ -23,14 +23,17 @@ function Button({ children, href, variant = 'primary', size = 'medium', classNam
     return (
       <Link
         href={href}
-        className={clsx('rounded-md  px-4 py-2 focus:outline-none text-center whitespace-nowrap', buttonClasses, className)}
+        className={clsx('rounded-md  px-4 py-2 focus:outline-none text-center whitespace-nowrap truncate', buttonClasses, className)}
       >
         {children}
       </Link>
     )
 
   return (
-    <button className={clsx('rounded-md  px-4 py-2 focus:outline-none text-center whitespace-nowrap', buttonClasses, className)} {...props}>
+    <button
+      className={clsx('rounded-md  px-4 py-2 focus:outline-none text-center whitespace-nowrap truncate', buttonClasses, className)}
+      {...props}
+    >
       {children}
     </button>
   )
