@@ -39,6 +39,10 @@ export class LocationStoreService {
       })
     }
   }
+
+  public static async deleteMutations(): Promise<void> {
+    await prisma.locationItem.deleteMany({})
+  }
 }
 
 export default LocationStoreService
