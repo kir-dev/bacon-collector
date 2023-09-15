@@ -1,4 +1,4 @@
-import LinkButton from "@/components/link-button";
+import LinkButton from '@/components/link-button'
 
 export default function Home() {
   return (
@@ -6,5 +6,5 @@ export default function Home() {
       <LinkButton href="/setup">Open setup</LinkButton>
       <LinkButton href="/map">Open map</LinkButton>
     </main>
-  );
+  )
 }

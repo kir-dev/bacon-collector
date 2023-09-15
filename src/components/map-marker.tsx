@@ -1,7 +1,7 @@
-import { Coords } from "google-map-react";
+import { Coords } from 'google-map-react'
 
 interface Props extends Coords {
-  text: string;
+  text: string
 }
 
 export function MapMarker({ text }: Props) {
@@ -12,5 +12,5 @@ export function MapMarker({ text }: Props) {
         <p>{text}</p>
       </div>
     </div>
-  );
+  )
 }
