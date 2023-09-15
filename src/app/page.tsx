@@ -9,10 +9,10 @@ export default function Home() {
         <h1 className="font-bold text-brand-500 text-2xl mb-10">B(e)acon Collector</h1>
         <div className="flex flex-col items-center justify-center gap-5">
           <Button className="w-full" href="/map">
-            Map
+            Térkép
           </Button>
           <Button variant="secondary" className="w-full" href="/setup">
-            Setup
+            App Beállítása
           </Button>
           <Image className="mt-5" src="/images/kirdev.svg" alt="Powered by Kir-Dev" width={200} height={40} />
         </div>
