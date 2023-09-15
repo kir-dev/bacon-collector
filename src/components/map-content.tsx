@@ -5,6 +5,7 @@ import { osm } from 'pigeon-maps/providers'
 import React, { useState } from 'react'
 import { MapItemList } from '@/components/map-item-list'
 import type { Point } from 'pigeon-maps'
+import { DeleteMarkerButton } from '@/components/delete-marker-button'
 
 const ChipFocusedZoom = 16
 
@@ -28,6 +29,7 @@ export function MapContent() {
           setZoom(ChipFocusedZoom)
         }}
       />
+      <DeleteMarkerButton />
     </div>
   )
 }
