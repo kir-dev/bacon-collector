@@ -10,11 +10,12 @@ datasource db {
 }
 
 model LocationItem {
-  token     String   @unique
-  latitude  Float
-  longitude Float
-  accuracy  Float
-  timestamp DateTime
-  altitude  Float
-  color     String
+  token            String   @unique
+  latitude         Float
+  longitude        Float
+  accuracy         Float
+  timestamp        DateTime
+  altitude         Float
+  color            String
+  broadcastEnabled Boolean? @default(false)
 }
