@@ -4,7 +4,7 @@ export type LocationBody = {
   longitude: number
   altitude: number
   token: string
-  broadcastEnabled?: boolean
+  broadcastEnabled: boolean | null
 }
 
 export type LocationItem = {
